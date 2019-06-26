@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "SearchBooks",
+  "version": "1.0",
+  "description": "Search books on https://www.books.com.tw",
+  "icons": {
+    "128": "128x128.png",
+    "48": "48x48.png",
+    "16": "16x16.png"
+  },
+  "background": {
+    "scripts": [
+      "main.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ]
+}
